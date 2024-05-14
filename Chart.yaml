@@ -2,7 +2,7 @@ apiVersion: v2
 name: aodh
 description: A Helm chart for aodh
 type: application
-version: 1.1.0
+version: 1.1.1
 appVersion: bd32c23cb6cc4-15.0.0-3-g27b3cd2f
 dependencies:
 - name: common

@@ -38,6 +38,7 @@ auth_type=password
 memcached_servers={{ join "," .Values.conf.keystone.memcached_servers }}
 {{- end }}
 service_type=alarming
+service_token_roles_required=True
 
 [listener]
 workers=1

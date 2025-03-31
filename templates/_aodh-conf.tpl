@@ -18,10 +18,11 @@ gnocchi_external_domain_name=Default
 connection_recycle_time=600
 
 [oslo_messaging_rabbit]
-amqp_durable_queues=True
-heartbeat_in_pthread=True
-heartbeat_timeout_threshold=60
 ssl=True
+rabbit_quorum_queue=true
+rabbit_transient_quorum_queue=true
+rabbit_stream_fanout=true
+rabbit_qos_prefetch_count=1
 
 [oslo_policy]
 policy_file=/etc/aodh/policy.yaml

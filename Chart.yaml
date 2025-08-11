@@ -2,7 +2,7 @@ apiVersion: v2
 name: aodh
 description: A Helm chart for aodh
 type: application
-version: 2.5.0
+version: 2.6.0
 appVersion: 18.0.0-2-g523062f4-1
 sources:
   - https://github.com/NeCTAR-RC/aodh-helm.git

@@ -2,14 +2,11 @@ apiVersion: v2
 name: aodh
 description: A Helm chart for aodh
 type: application
-version: 2.6.0
+version: 2.7.0
 appVersion: 18.0.0-2-g523062f4-1
 sources:
   - https://github.com/NeCTAR-RC/aodh-helm.git
 dependencies:
-- name: common
-  repository: oci://registry-1.docker.io/bitnamicharts
-  version: 2.31.4
 - name: nectarlib
-  version: 3.1.4
+  version: 3.2.0
   repository: oci://registry.rc.nectar.org.au/nectar-helm
